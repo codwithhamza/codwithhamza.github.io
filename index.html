@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Web</title>
+    <script src="https://kit.fontawesome.com/406b4463e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOG (2).png" class="logo" alt="logo image">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Hamza Zia Khan</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------about me---------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Untitled design (7).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>
+                        I love to create beautiful, functional designs and believe in the power of technology to
+                        transform lives. I am driven to use my expertise to make a positive impact in the world. With a
+                        keen eye for detail, I am also always exploring new ideas and technologies to keep my designs up
+                        to date.I have several years of experience in web design, web development, digital and print
+                        design, and
+                        digital marketing. I am also an accomplished stock exchange technical analyst. My experience in
+                        these areas gives me an edge in creating designs that not only look great but also maximize the
+                        capabilities of current technologies.Therefore, my passion for design and technology, combined
+                        with my expertise, make me a valuable
+                        asset to any team.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>1st</span><br>
+                                <h3>Web Developer</h3>Develop Codeing & Wordpress Web-Sites
+                            </li>
+                            <li><span>2nd</span><br>
+                                <h3>Digital Marketing</h3>Take Your Business To The Next Level
+                            </li>
+                            <li><span>3rd</span><br>
+                                <h3>Graphic Designer</h3>Focus On Quality
+                            </li>
+                            <li><span>4th</span><br>
+                                <h3>Advanced Technical Analyst</h3>Pakistan Stock Exchange Limited
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2018 - 2020</span><br>
+                                <h3>Junior UI Designer</h3>Making website concept as customer needs, elaborate the
+                                problem-solving items.
+                            </li>
+                            <li><span>2020 - 2022</span><br>
+                                <H3>Front-end Developer</H3>Developing client's website to developing the business and
+                                marketing concept
+                            </li>
+                            <li><span>2022 - 2023</span><br>
+                                <h3>Senior Web Developer</h3>
+                                Lead annual and monthly meeting and discuss about previous project to evaluate the team.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>1998 - 2000</span><br>
+                                <h3>Primary School</h3>Jinah Foundation High School
+                            </li>
+                            <li><span>2000 - 2009</span><br>
+                                <h3>Junior High School</h3>Asent Gramar High School
+                            </li>
+                            <li><span>2010 - 2012</span><br>
+                                <h3>Senior High School</h3>Zia-Ul-Qumar High School
+                            </li>
+                            <li><span>2012- 2016</span><br>
+                                <h3>GRADUATE</h3>A-I-O-U
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------services----------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Me Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, recusandae minima
+                        reprehenderit quaerat consequuntur, debitis nobis ipsa vitae nostrum, quasi excepturi mollitia
+                        velit laudantium ipsam vel est? Tenetur, ipsam architecto.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, recusandae minima
+                        reprehenderit quaerat consequuntur, debitis nobis ipsa vitae nostrum, quasi excepturi mollitia
+                        velit laudantium ipsam vel est? Tenetur, ipsam architecto.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bezier-curve"></i>
+                    <h2>Graphic Desige</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, recusandae minima
+                        reprehenderit quaerat consequuntur, debitis nobis ipsa vitae nostrum, quasi excepturi mollitia
+                        velit laudantium ipsam vel est? Tenetur, ipsam architecto.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------portfolio------------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/workt.1.png">
+                    <div class="layer">
+                        <h3>music aap</h3>
+                        <p>Lorem ipsum, dolor sit amet consect illum. Facilis dicta cumque tenetur.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/workt.png">
+                    <div class="layer">
+                        <h3>online shoping aap</h3>
+                        <p>Lorem ipsum, dolor sit amet consect illum. Facilis dicta cumque tenetur.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/workt2.png">
+                    <div class="layer">
+                        <h3>socal meadia aap</h3>
+                        <p>Lorem ipsum, dolor sit amet consect illum. Facilis dicta cumque tenetur.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- /* -----------------contact--------------------- */ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> hamza@meharalbahrain.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> codwithhamza@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +92-3334542885</p><br>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/iconicgfx4k"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-behance"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/muhammad hamza.pdf (1).pdf" download class="btn btn2">Downlod Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email  " name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyrihgt">
+            <p>Copyright © Hamza. Made <i class="fa-solid fa-heart"></i> with by HAMZA ZIA KHAN </p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxdzCO7tKXBQBFnOmnUox7N3_n4IKJGD8W8eyMr6IQuUrff4vLp1b0yTZFUaW8Avr1I1A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
